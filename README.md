@@ -26,6 +26,8 @@
 
 6. 在Auto.js悬浮窗中运行脚本`sky-practice.js`
 
+![image](./demo.gif)
+
 ## 关于乐谱
 
 1. 乐谱文件必须是未加密的.txt文件（**x-UTF-16LE-BOM**编码格式），可在软件`SkyStudio`自行编谱后导入`skyMusicPractice`文件夹

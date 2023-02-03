@@ -26,7 +26,7 @@
 
 6. 在Auto.js悬浮窗中运行脚本`sky-practice.js`
 
-![image](https://wx2.sinaimg.cn/mw2000/005tcqWXgy1haqdkxxuijg30go07i4qz.gif)
+![image](https://img.rongcui666.com/2023/02/03/NPURkACPoJeZV.gif)
 
 ## 关于乐谱
 

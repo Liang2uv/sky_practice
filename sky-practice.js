@@ -314,15 +314,19 @@ function f_authOpen() {
 
 function f_tbnOpen() {
   f_btn = floaty.rawWindow(
-    <vertical h="400dp" gravity="left">
-      <button id="btn_exit" text="退出"/>
-      <button id="btn_play_start" text="选择乐谱"/>
-      <button id="btn_play_restart" text="重新练习"/>
-      <button id="btn_pre" text="上一个"/>
-      <button id="btn_next" text="下一个"/>
-      <button id="btn_free" text="自由练习"/>
-      <button id="btn_position" text="开始定位"/>
-  </vertical>
+    <frame id="board">
+      <ScrollView h="{{device.width}}px" scrollbars="none">
+        <vertical gravity="left">
+          <button id="btn_exit" text="退出"/>
+          <button id="btn_play_start" text="选择乐谱"/>
+          <button id="btn_play_restart" text="重新练习"/>
+          <button id="btn_pre" text="上一个"/>
+          <button id="btn_next" text="下一个"/>
+          <button id="btn_free" text="自由练习"/>
+          <button id="btn_position" text="开始定位"/>
+        </vertical>
+      </ScrollView>
+    </frame>
   );
   f_btn.btn_exit.click(function() {
     exit();

@@ -29,6 +29,7 @@ var playW = 1061;  // 弹奏框宽度
 var playH = 616;  // 弹奏框高度
 var keySize = 171;  // 按键大小
 var spanSize = 51.5; // 按键间隔
+var posExt = 70;  // 悬浮窗定位需要额外减去的宽度和高度
 
 var eventSub;
 
@@ -77,6 +78,7 @@ function posInit() {
   playH = Math.ceil(playH * radio);
   keySize = Math.ceil(keySize * radio);
   spanSize = Math.ceil(spanSize * radio);
+  posExt = Math.ceil(posExt * radio);
 }
 
 function eventListen() {
@@ -196,8 +198,8 @@ function eventListen() {
     eventSub.on('posFinish', function() {
       x = f_pos.getX();
       y = f_pos.getY();
-      playW = f_pos.getWidth() - 70;
-      playH = f_pos.getHeight() - 70;
+      playW = f_pos.getWidth() - posExt;
+      playH = f_pos.getHeight() - posExt;
       let ret = divideTwoCellOnce(3, 2, playH, 5, 4, playW);
       keySize = ret.x;
       spanSize = ret.y;

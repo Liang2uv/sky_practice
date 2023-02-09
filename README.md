@@ -8,27 +8,33 @@
 
 ## 更新日志
 
+- 2023/02/09 打包apk
+
 - 2023/02/07 优化不同手机适配问题，添加乐谱搜索功能
 
 - 2023/02/03 添加密钥（需支付获取），开发不易，感谢支持！
 
 - 2023/01/17 添加滚动歌词，分辨率适配，优化触摸延迟问题
 
-## 使用
+## 安装教程
 
-1. 点击`autojs.apk`并安装，请勿更新！！！
+1. 下载安装包apk文件，[下载地址](https://github.com/Liang2uv/sky_practice/releases)，百度云：链接：https://pan.baidu.com/s/1WKfN24kdySgSLsklcq3ARQ 提取码：1314
 
-2. 打开Auto.js侧边栏，为Auto.js开启**无障碍服务**和**悬浮窗权限**。
+2. 将文件夹`skyMusicPractice`复制到手机根目录，里面是乐谱文件
 
-3. 将文件夹`skyMusicPractice`复制到手机根目录
-
-4. 打开Auto.js，点击右下角的导入，导入文件`sky-practice.js`
-
-5. 打开`光遇`，调出弹琴界面
-
-6. 在Auto.js悬浮窗中运行脚本`sky-practice.js`
+3. 运行app前请授予悬浮窗、无障碍、访问设备信息等权限
 
 ![image](https://img.rongcui666.com/2023/02/03/NPURkACPoJeZV.gif)
+
+## 二次开发
+
+1. 打开Auto.js，点击右下角的导入，导入文件`sky-practice.js`
+
+2. 将文件夹`skyMusicPractice`复制到手机根目录，里面是乐谱文件
+
+3. 在Auto.js悬浮窗中运行脚本`sky-practice.js`
+
+注：本脚本只在autojs v4.1.1版本测试通过，请勿更新autojs
 
 ## 关于乐谱
 

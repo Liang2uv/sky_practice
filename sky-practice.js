@@ -42,7 +42,7 @@ importClass(android.view.WindowManager);
 importClass(android.view.inputmethod.EditorInfo);
 
 (function() {
-  tip('本脚本为练习脚本，非自动弹琴，使用过程中遇到问题请联系开发者wx:Liang2uv —— 光遇·六六', 'alert');
+  tip('请开启【无障碍】【悬浮窗】【访问设备信息】三种权限，遇到问题请联系开发者wx:Liang2uv —— 光遇·六六', 'alert');
   posInit();
   musicItems(); // 1. 获取乐谱列表
   if (!this.musicList.length) { return; }

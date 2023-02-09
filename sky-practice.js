@@ -658,7 +658,7 @@ function setTouchable(view, touchable) {
       tip('查询不到乐谱文件，请将乐谱文件放在skyMusicPractice目录下', 'alert');
     }
   } else {
-    tip('skyMusic文件夹不存在');
+    tip('skyMusicPractice文件夹不存在');
     if (files.create(musicDir)) {
       tip('创建文件夹skyMusicPractice成功，请将谱子放入该文件夹', 'alert');
     } else {

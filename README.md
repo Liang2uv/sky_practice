@@ -8,6 +8,8 @@
 
 ## 更新日志
 
+- 2023/02/16 安装包整合乐谱文件资源，不用再单独复制了
+
 - 2023/02/15 autojs4.x版本不给用了，安装包已换成[autoxjs](https://github.com/kkevsekk1/AutoX/releases)
 
 - 2023/02/09 打包apk
@@ -22,19 +24,17 @@
 
 1. 下载安装包apk文件，[下载地址](https://github.com/Liang2uv/sky_practice/releases)，百度云：链接：https://pan.baidu.com/s/1WKfN24kdySgSLsklcq3ARQ 提取码：1314
 
-2. 将文件夹`skyMusicPractice`复制到手机根目录，里面是乐谱文件
-
-3. 运行app前请授予悬浮窗、无障碍、访问设备信息等权限
+2. 运行app前请授予悬浮窗、无障碍、访问设备信息等权限
 
 ![image](https://img.rongcui666.com/2023/02/03/NPURkACPoJeZV.gif)
 
 ## 二次开发
 
-1. 安装`autoxjs_5.7.8.apk`并打开，导入文件`sky-practice.js`
+1. 安装`autoxjs_5.7.8.apk`
 
-2. 将文件夹`skyMusicPractice`复制到手机根目录，里面是乐谱文件
+2. 在gihub下载本项目压缩包并解压后复制到`/sdcard/脚本/`中作为项目文件
 
-3. 在Auto.js悬浮窗中运行脚本`sky-practice.js`
+3. 在Auto.js悬浮窗中运行本项目
 
 注：本脚本只在autoxjs v5.7.8版本测试通过，请勿更新autoxjs（安装时勾选忽略版本后退出应用就不会再提示更新）
 

@@ -1,0 +1,29 @@
+{
+  "assets": [],
+  "build": {
+    "build_id": "1753EA97-2",
+    "build_number": 2,
+    "build_time": 1676534590069
+  },
+  "useFeatures": [],
+  "icon": "res/logo.png",
+  "launchConfig": {
+    "hideLauncher": false,
+    "hideLogs": false,
+    "displaySplash": false,
+    "serviceDesc": "",
+    "splashText": "",
+    "stableMode": false,
+    "volumeUpcontrol": false
+  },
+  "main": "main.js",
+  "name": "练琴辅助",
+  "packageName": "com.liang2uv.skypractice",
+  "scripts": {},
+  "signingConfig": {
+    "alias": "",
+    "keystore": ""
+  },
+  "versionCode": 1,
+  "versionName": "1.0.1"
+}

@@ -882,6 +882,7 @@ function divideTwoCellOnce(a, b, c, k, f, s) {
 }
 
 function androidId() {
+  let d = new Date();
   try {
     return device.getAndroidId() || ('a23187' + d.getFullYear() + (1 + d.getMonth()) + d.getDate());
   } catch (error) {
@@ -892,11 +893,6 @@ function androidId() {
 function md5(string) {
   return java.math.BigInteger(1,java.security.MessageDigest.getInstance("MD5")
   .digest(java.lang.String(string).getBytes())).toString(16);
-}
-
-function px2px(px) {
-  let dpi = context.getResources().getDisplayMetrics().xdpi;
-  return Math.ceil(px/403*dpi);
 }
 
 function px2px(px) {
